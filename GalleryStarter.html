@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Gallery</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .image-info {
+            text-align: center;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Wild_Rosa_rubiginosa.jpg" alt="Rosa rubiginosa">
+            <div class="image-info">
+                <p>Rosa rubiginosa</p>
+                <p>Creative Commons - Some rights reserved</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://worldoffloweringplants.com/wp-content/uploads/2018/01/Narcissus-pseudonarcissus-Wild-Daffodil4-702x527.jpg" alt="Narcissus Pseudonarcissus">
+            <div class="image-info">
+                <p>Narcissus Pseudonarcissus</p>
+                <p>All rights reserved</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://harvesting-history.com/wp-content/uploads/2020/09/HH_Standard-Gladiola_Olympic-Flame_1.27.2021-600x406.jpg" alt="Tulipa 'Olympic Flame'">
+            <div class="image-info">
+                <p>Tulipa 'Olympic Flame'</p>
+                <p>Public domain</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
